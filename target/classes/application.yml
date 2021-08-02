@@ -1,8 +1,8 @@
 cloud:
   aws:
     credentials:
-      access-key: AKIA53JJUB3CYZVWBSNO
-      secret-key: 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
+      access-key: 9999999999999999999999999
+      secret-key: 88888888888888888888888888888
     region:
       static: ap-southeast-2
     stack:
@@ -10,7 +10,7 @@ cloud:
 
 application:
   bucket:
-    name: aurora-dev-doc-s3
+    name: 0000000000000000000
 
 
 spring:
