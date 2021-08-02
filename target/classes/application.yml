@@ -1,0 +1,26 @@
+cloud:
+  aws:
+    credentials:
+      access-key: AKIA53JJUB3CYZVWBSNO
+      secret-key: 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
+    region:
+      static: ap-southeast-2
+    stack:
+      auto: false
+
+application:
+  bucket:
+    name: aurora-dev-doc-s3
+
+
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 2MB
+      max-file-size: 5MB
+      max-request-size: 10MB
+
+server:
+  port: 8292
+
